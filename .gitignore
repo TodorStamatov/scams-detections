@@ -1,0 +1,13 @@
+# Large dataset (download with scripts/download_paysim.py)
+data/paysim.csv
+data_hf_tmp/
+
+# Local pip target / deps (optional)
+.deps/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Dashboard generated aggregates (keep *.sample.json tracked)
+dashboard/public/data/paysim_summary.json
+dashboard/public/data/ml_results.json

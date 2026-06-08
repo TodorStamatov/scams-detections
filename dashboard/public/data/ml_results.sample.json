@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "generated_at": "2026-04-30T12:00:00+00:00",
+    "source": "sample"
+  },
+  "rows": [
+    {
+      "Family": "sklearn",
+      "Model": "Logistic Regression",
+      "Strategy": "none",
+      "Mean_Recall": 0.42,
+      "Mean_Precision": 0.18,
+      "Mean_F1": 0.25,
+      "Mean_PR_AUC": 0.31,
+      "Mean_ROC_AUC": 0.88
+    },
+    {
+      "Family": "sklearn",
+      "Model": "Logistic Regression",
+      "Strategy": "class_weight",
+      "Mean_Recall": 0.78,
+      "Mean_Precision": 0.12,
+      "Mean_F1": 0.21,
+      "Mean_PR_AUC": 0.35,
+      "Mean_ROC_AUC": 0.86
+    },
+    {
+      "Family": "sklearn",
+      "Model": "Random Forest",
+      "Strategy": "smote",
+      "Mean_Recall": 0.85,
+      "Mean_Precision": 0.09,
+      "Mean_F1": 0.17,
+      "Mean_PR_AUC": 0.28,
+      "Mean_ROC_AUC": 0.9
+    },
+    {
+      "Family": "boosting",
+      "Model": "LightGBM",
+      "Strategy": "class_weight",
+      "Mean_Recall": 0.81,
+      "Mean_Precision": 0.22,
+      "Mean_F1": 0.34,
+      "Mean_PR_AUC": 0.52,
+      "Mean_ROC_AUC": 0.93
+    },
+    {
+      "Family": "boosting",
+      "Model": "XGBoost",
+      "Strategy": "class_weight",
+      "Mean_Recall": 0.79,
+      "Mean_Precision": 0.24,
+      "Mean_F1": 0.36,
+      "Mean_PR_AUC": 0.54,
+      "Mean_ROC_AUC": 0.92
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "is_sample": true,
+    "total_rows": 100000,
+    "fraud_rate": 0.00129,
+    "amount_log_clip": [0, 25],
+    "step_clip": [0, 800],
+    "scatter_source_rows": 100000,
+    "generated_at": "2026-04-30T12:00:00+00:00"
+  },
+  "class_balance": [
+    { "label": "0", "count": 99871 },
+    { "label": "1", "count": 129 }
+  ],
+  "by_type": [
+    { "type": "CASH_IN", "count": 20000, "fraud_count": 0, "fraud_rate": 0 },
+    { "type": "CASH_OUT", "count": 35000, "fraud_count": 45, "fraud_rate": 0.001286 },
+    { "type": "DEBIT", "count": 5000, "fraud_count": 2, "fraud_rate": 0.0004 },
+    { "type": "PAYMENT", "count": 30000, "fraud_count": 12, "fraud_rate": 0.0004 },
+    { "type": "TRANSFER", "count": 10000, "fraud_count": 70, "fraud_rate": 0.007 }
+  ],
+  "amount_histogram": [
+    { "bin_start": 0, "bin_end": 0.625, "count": 12000 },
+    { "bin_start": 0.625, "bin_end": 1.25, "count": 15000 },
+    { "bin_start": 1.25, "bin_end": 1.875, "count": 18000 },
+    { "bin_start": 1.875, "bin_end": 2.5, "count": 14000 },
+    { "bin_start": 2.5, "bin_end": 3.125, "count": 9000 },
+    { "bin_start": 3.125, "bin_end": 3.75, "count": 7000 },
+    { "bin_start": 3.75, "bin_end": 4.375, "count": 5000 },
+    { "bin_start": 4.375, "bin_end": 5.0, "count": 3500 },
+    { "bin_start": 5.0, "bin_end": 25.0, "count": 24500 }
+  ],
+  "step_histogram": [
+    { "bin_start": 0, "bin_end": 100, "count": 25000 },
+    { "bin_start": 100, "bin_end": 200, "count": 22000 },
+    { "bin_start": 200, "bin_end": 300, "count": 20000 },
+    { "bin_start": 300, "bin_end": 400, "count": 18000 },
+    { "bin_start": 400, "bin_end": 800, "count": 15000 }
+  ],
+  "flagged_cross": [
+    { "isFlaggedFraud": 0, "isFraud": 0, "count": 99850 },
+    { "isFlaggedFraud": 0, "isFraud": 1, "count": 120 },
+    { "isFlaggedFraud": 1, "isFraud": 0, "count": 21 },
+    { "isFlaggedFraud": 1, "isFraud": 1, "count": 9 }
+  ],
+  "sample_scatter": [
+    { "step": 10, "log_amount": 4.2, "isFraud": 0 },
+    { "step": 45, "log_amount": 6.1, "isFraud": 0 },
+    { "step": 120, "log_amount": 8.4, "isFraud": 1 },
+    { "step": 200, "log_amount": 5.0, "isFraud": 0 },
+    { "step": 340, "log_amount": 9.2, "isFraud": 1 }
+  ]
+}
